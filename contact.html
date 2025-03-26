@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="contact-page-title">Contacto - Snack Gwail</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo/PinkFruitLogo3.png" alt="Snack Gwail Logo">
+        </div>
+        <nav class="center-nav">
+            <ul>
+                <li><a href="index.html" data-i18n="nav-home">Inicio</a></li>
+                <li><a href="nosotros.html" data-i18n="nav-about">Nosotros</a></li>
+                <li><a href="producto.html" data-i18n="nav-products">Producto</a></li>
+                <li><a href="contact.html" data-i18n="nav-contact">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="language-buttons">
+            <button id="translate-en" aria-label="Translate to English">English</button>
+            <button id="translate-ko" aria-label="Translate to Korean">한국어</button>
+        </div>
+    </header>
+
+    <main class="contact-main">
+        <section class="contact-form">
+            <h2 id="contact-form-title" data-i18n="contact-form-title">Formulario de Contacto</h2>
+            <p id="contact-description" data-i18n="contact-description">¿Tienes alguna pregunta, comentario o sugerencia? ¡Estamos aquí para ayudarte!</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name" id="name-label" data-i18n="name-label">Nombre:</label>
+                    <input type="text" id="name" name="name" required data-i18n-placeholder="name-placeholder" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email-label" data-i18n="email-label">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required data-i18n-placeholder="email-placeholder" placeholder="Ingresa tu email">
+                </div>
+                <div class="form-group">
+                    <label for="subject" id="subject-label" data-i18n="subject-label">Asunto:</label>
+                    <input type="text" id="subject" name="subject" required data-i18n-placeholder="subject-placeholder" placeholder="Asunto del mensaje">
+                </div>
+                <div class="form-group">
+                    <label for="message" id="message-label" data-i18n="message-label">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required data-i18n-placeholder="message-placeholder" placeholder="Escribe tu mensaje aquí"></textarea>
+                </div>
+                <button type="submit" id="submit-button" data-i18n="submit-button">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <section class="contact-info">
+            <h2 id="contact-info-title" data-i18n="contact-info-title">Información de Contacto</h2>
+            <div class="info-container">
+                <div class="info-item">
+                    <strong id="address-label" data-i18n="address-label">Dirección:</strong>
+                    <p id="address">Av. Peñuelas 3, San Pedrito Peñuelas I, 76148 Santiago de Querétaro, Qro.</p>
+                </div>
+                <div class="info-item">
+                    <strong id="phone-label" data-i18n="phone-label">Teléfono:</strong>
+                    <p id="phone">+52 442 862 3789</p>
+                </div>
+                <div class="info-item">
+                    <strong id="email-contact-label" data-i18n="email-contact-label">Correo Electrónico:</strong>
+                    <p id="email-contact">contacto@SnackGwailk.com</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <h2 id="location-title" data-i18n="location-title">Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.234704803641!2d-100.40398402514967!3d20.619287980929506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35ae43ffd4927%3A0xb9e194a2187f40f7!2sInternational%20University%20of%20Queretaro%20UNIQ!5e0!3m2!1sen!2smx!4v1740702128810!5m2!1sen!2smx" 
+                width="100%"
+                height="400"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <a href="terms.html" data-i18n="nav-terms">Términos y Condiciones</a>
+        </div>
+        <div class="footer-center">
+            <p>&copy; <span id="year"></span> <span data-i18n="copyright">Snack Gwail. Todos los derechos reservados.</span></p>
+        </div>
+        <div class="footer-right">
+            <a href="https://www.instagram.com/tu_perfil" target="_blank" class="social-button instagram" data-i18n="instagram">Instagram</a>
+            <a href="https://www.tiktok.com/@tu_perfil" target="_blank" class="social-button tiktok" data-i18n="tiktok">TikTok</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
