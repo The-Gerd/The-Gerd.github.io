@@ -23,7 +23,7 @@ const translations = {
       "value6": "Commitment",
       "value7": "Respect",
       "sales-title": "Sales Speech",
-      "sales-text": "Hello good afternoon. We are Snack Gwail, exporters of dehydrated fruit from Mexico. We offer a variety of Mexican fruits, 100% natural, no added sugars. Our products are ideal for the South Korean market, which seeks healthy and exotic snacks. With long shelf life and easy distribution, they are perfect for supermarkets and convenience stores. We are looking for business partners to bring these unique flavors to South Korea. Let's talk business!",
+      "sales-text": "Welcome to Snack Gwail, a mexican company which exports dehydrated fruit. We offer a variety of mexican fruit, 100% natural and no added sugar. This is an ideal product for the Korean market which wants a healthy and exotic snack with a useful and long life span with and easy distribution that makes it perfect for supermarkets, delis or convenient stores. Would you like to take part of our commercial partners taking these uniques flavours to South Korea? So, let's talk about business, contact us here.",
       
       // Product Page
       "products-page-title": "Export Products - Snack Gwail",
